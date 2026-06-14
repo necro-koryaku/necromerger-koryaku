@@ -50,7 +50,7 @@ params:
   footer:
     displayCopyright: false
     displayPoweredBy: true
-    copyright: "© Grumpy Rhino Games LTD. 当サイトは非公式ファンサイトです。"
+    copyright: "当サイトはGrumpy Rhino Games LTDの非公式ファンサイトです。ゲームに関する著作権はGrumpy Rhino Games LTDに帰属します。"
 
   editURL:
     enable: true
