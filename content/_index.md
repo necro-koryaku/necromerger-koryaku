@@ -13,6 +13,8 @@ NecroMergerの非公式攻略サイトです。
   {{< card link="feats" title="フィート一覧" icon="star" >}}
   {{< card link="minions" title="ミニオン一覧" icon="sparkles" >}}
   {{< card link="items" title="アイテム一覧" icon="cube" >}}
+  {{< card link="stations" title="ステーション一覧" icon="building-office" >}}
+  {{< card link="visitors" title="来訪者一覧" icon="users" >}}
   {{< card link="events" title="サブイベント攻略" icon="map" >}}
   {{< card link="tips" title="小ネタ" icon="light-bulb" >}}
 {{< /cards >}}
