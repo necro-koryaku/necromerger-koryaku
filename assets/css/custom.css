@@ -1,0 +1,69 @@
+/* ===== 背景・全体 ===== */
+:root {
+  --primary-hue: 270deg;
+  --primary-saturation: 50%;
+  --primary-lightness: 70%;
+}
+
+/* ダーク固定 */
+html {
+  background: #1e1830 !important;
+}
+
+/* 外枠レンガ */
+body {
+  background:
+    repeating-linear-gradient(
+      90deg,
+      #2a1a3e 0px, #2a1a3e 36px, #1a0f2a 36px, #1a0f2a 38px
+    ) !important;
+  padding: 28px !important;
+}
+
+/* ===== ナビバー ===== */
+.nav-container, header {
+  background: #170f28 !important;
+  border-bottom: 1px solid #4a3268 !important;
+}
+
+.nav-title, header a {
+  color: #e8d8ff !important;
+}
+
+/* ===== メインコンテンツ ===== */
+main, .content, article {
+  background: #1e1830 !important;
+  color: #d8b8f8 !important;
+}
+
+/* ===== 見出し ===== */
+h1, h2, h3, h4 {
+  color: #ead8ff !important;
+}
+
+/* ===== テーブル ===== */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  background: #2d1f44 !important;
+  color: #e8d8ff !important;
+  border: 1px solid #4a3268 !important;
+  padding: 8px 12px;
+}
+
+td {
+  background: #1e1830 !important;
+  color: #d8b8f8 !important;
+  border: 1px solid #3d2860 !important;
+  padding: 8px 12px;
+}
+
+/* ===== フッター ===== */
+.hextra-footer {
+  background: #170f28 !important;
+  border-top: 1px solid #4a3268 !important;
+  color: #9878c0 !important;
+}
