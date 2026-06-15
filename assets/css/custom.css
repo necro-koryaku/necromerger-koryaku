@@ -13,17 +13,15 @@ html {
 body {
   background-color: #2a1a3e !important;
   background-image:
-    /* 横線 */
     repeating-linear-gradient(
       0deg,
-      transparent 0px, transparent 28px,
-      #1a0f2a 28px, #1a0f2a 30px
+      transparent 0px, transparent 50px,
+      #1a0f2a 50px, #1a0f2a 53px
     ),
-    /* 縦線 */
     repeating-linear-gradient(
       90deg,
-      transparent 0px, transparent 56px,
-      #1a0f2a 56px, #1a0f2a 58px
+      transparent 0px, transparent 90px,
+      #1a0f2a 90px, #1a0f2a 93px
     ) !important;
   padding: 28px !important;
 }
