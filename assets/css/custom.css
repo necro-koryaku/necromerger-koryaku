@@ -1,37 +1,45 @@
-/* ===== 背景・全体 ===== */
+/* ===== 全体 ===== */
 :root {
   --primary-hue: 270deg;
   --primary-saturation: 50%;
   --primary-lightness: 70%;
 }
 
-/* ダーク固定 */
 html {
   background: #1e1830 !important;
 }
 
-/* 外枠レンガ */
+/* 外枠レンガ（横・縦線でレンガ目を粗く） */
 body {
-  background:
+  background-color: #2a1a3e !important;
+  background-image:
+    /* 横線 */
+    repeating-linear-gradient(
+      0deg,
+      transparent 0px, transparent 28px,
+      #1a0f2a 28px, #1a0f2a 30px
+    ),
+    /* 縦線 */
     repeating-linear-gradient(
       90deg,
-      #2a1a3e 0px, #2a1a3e 36px, #1a0f2a 36px, #1a0f2a 38px
+      transparent 0px, transparent 56px,
+      #1a0f2a 56px, #1a0f2a 58px
     ) !important;
   padding: 28px !important;
 }
 
 /* ===== ナビバー ===== */
-.nav-container, header {
+header {
   background: #170f28 !important;
   border-bottom: 1px solid #4a3268 !important;
 }
 
-.nav-title, header a {
+header a, nav a {
   color: #e8d8ff !important;
 }
 
 /* ===== メインコンテンツ ===== */
-main, .content, article {
+main, article {
   background: #1e1830 !important;
   color: #d8b8f8 !important;
 }
@@ -41,19 +49,25 @@ h1, h2, h3, h4 {
   color: #ead8ff !important;
 }
 
-/* ===== テーブル ===== */
-table {
-  border-collapse: collapse;
-  width: 100%;
+/* ===== カード（メニュー） ===== */
+.hextra-card {
+  background: #170f28 !important;
+  border: 1px solid #4a3268 !important;
+  color: #d8b8f8 !important;
 }
 
+.hextra-card span, .hextra-card p, .hextra-card div {
+  color: #d8b8f8 !important;
+}
+
+/* ===== テーブル ===== */
+table { border-collapse: collapse; width: 100%; }
 th {
   background: #2d1f44 !important;
   color: #e8d8ff !important;
   border: 1px solid #4a3268 !important;
   padding: 8px 12px;
 }
-
 td {
   background: #1e1830 !important;
   color: #d8b8f8 !important;
