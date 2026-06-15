@@ -10,7 +10,7 @@ html {
 }
 
 /* 外枠レンガ（横・縦線でレンガ目を粗く） */
-.hextra-max-page-width {
+body {
   background-color: #2a1a3e !important;
   background-image:
     repeating-linear-gradient(
@@ -23,7 +23,10 @@ html {
       transparent 0px, transparent 90px,
       #1a0f2a 90px, #1a0f2a 93px
     ) !important;
-  padding: 12px !important;
+}
+
+.hextra-max-page-width {
+  padding: 0 !important;
 }
 
 /* ===== ナビバー ===== */
