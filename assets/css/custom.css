@@ -26,10 +26,15 @@ body {
 }
 
 table img {
-  width: 24px;
-  height: 24px;
-  vertical-align: middle;
-  display: inline-block;
+  width: 32px !important;
+  height: 32px !important;
+  vertical-align: middle !important;
+  display: inline-block !important;
+  margin: 0 !important;
+}
+
+table td p {
+  margin: 0 !important;
 }
 
 .hextra-max-page-width {
