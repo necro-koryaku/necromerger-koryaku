@@ -7,7 +7,7 @@ title: レベル別リワード一覧
 | レベル | 必要ポイント | リワード・解放内容 |
 |--------|------------|----------------|
 | 1 | - | - |
-| 2 | ？ | <img src="/images/level_reward/increase_lair_lv2.jpg" width="24" height="24" style="vertical-align:middle">ダンジョン拡張Ⅰ |
+| 2 | ？ | <img src="/images/level_reward/increase_lair_lv2.jpg" width="20" style="vertical-align:middle">ダンジョン拡張Ⅰ |
 | 3 | ？ | ？ |
 | 4 | ？ | アイスチェスト |
 | 5 | ？ | 宝箱 |
