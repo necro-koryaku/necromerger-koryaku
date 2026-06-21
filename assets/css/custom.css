@@ -37,6 +37,15 @@ table td p {
   margin: 0 !important;
 }
 
+table th:nth-child(1), table td:nth-child(1) {
+  width: 15%;
+  white-space: nowrap;
+}
+table th:nth-child(2), table td:nth-child(2) {
+  width: 20%;
+  white-space: nowrap;
+}
+
 .hextra-max-page-width {
   max-width: 100% !important;
   padding-left: 40px !important;
