@@ -52,6 +52,16 @@ table th:nth-child(2), table td:nth-child(2) {
   padding-right: 40px !important;
 }
 
+nav[aria-label="breadcrumb"] a, .hextra-breadcrumb a {
+  color: #c0a0e0 !important;
+}
+
+.hextra-card img {
+  width: 32px !important;
+  height: 32px !important;
+  object-fit: contain;
+}
+
 /* ===== ナビバー ===== */
 header {
   background: #170f28 !important;
@@ -60,6 +70,11 @@ header {
 
 header a, nav a {
   color: #e8d8ff !important;
+}
+
+header, header.hx-sticky, div[class*="hx-bg-white"] {
+  background: #170f28 !important;
+  border-bottom: 1px solid #4a3268 !important;
 }
 
 /* ===== メインコンテンツ ===== */
